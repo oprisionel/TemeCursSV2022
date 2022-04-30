@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40 px;
+    border-bottom: 1px solid rgba(0,0,0, 0.7);
+
+}
+.page-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page-heading span{
+    color: rgb(42, 165, 44);
+}
+.page-heading h1{
+    font-size: medium;
+    color: aquamarine;
+    font-weight: 600;
+}
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 5px;
+    flex-wrap: wrap;
+}
+.page-box {
+    width: 400px;
+    background-color: whitesmoke;
+    border: 2px black;
+    margin: 20px ;
+}
+.page-img  img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+.page-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 230px;
+}
+.page-text span{
+    color: black;
+    font-size: 0.9rem;
+} 
+.page-text .page-title{
+    font-size: auto;
+    font-weight: 500;
+    color: rgb(43, 226, 92);
+}
+.page-text p{
+    color: gray;
+    font-size: medium;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 5px;
+}
+.page-button{
+    margin: 20px 10px 20px 5px;
+    box-shadow: inset;
+} 
